@@ -1,20 +1,13 @@
 
 body {
     padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-
-    transition:all 0.3s ease;
-    background-color: grey;
-/*    background-image:url('../images/bg.png');
-    background-repeat: repeat; */
+	background-color:#fff;
 }
 
-.cart-link{width: 100%;text-align: right;display: block;font-size: 22px;}
-
-
-
 .navbar-custom {
-    background-color: #294F00;
-	  border: none;
+    background-color:#229922;
+    color:#ffffff;
+	border: none;   
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -22,147 +15,41 @@ body {
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: transparent;
+    background-color:transparent;
 }
 .navbar-custom .navbar-brand { 
     color: black;
 }
 
-.navbar-toggle
-{
-
-}
-.navbar-brand
-{
-}
-
-
 .product-display {
-    margin-top: 10px;
-    background-color: transparent;
-}
-
-.about-display {
     margin-top: 70px;
-    background-color: pink;
 }
-
-.contact-display {
-    margin-top: 70px;
-    border-radius: 5px;
-    background-color: blue;
-    padding: 20px;
-}
-
 
 .product-list {
-  margin-bottom: 30px;
-  background-color: transparent;
-  background: none;
-
+    margin-bottom: 30px;
 }
-
+  
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
-      width: 30%;
+      width: 20%;
       margin: auto;
   }
   
  .carousel-control.left, .carousel-control.right {
-  background-image: none;
-	color: black;
+    background-image: none;
+	  color:black;
 }
-.carousel-indicators {
-  bottom:-50px;
-}
-
-.caption {
-  padding: 9px;
-  font-weight: bold
-  background-color: transparent;
-  color: grey; /*// text color product*/
-}
-.thumbnail{
-  background-color: transparent;
-  border: none;
-}
-
-.img-small{
-  max-width: 50px;
-}
-
-.products {
-   padding: 20px;
-   margin: 10px;
-   background: #fff;
-   line-height: 1.3em;
-   border: 2px;
-   border-radius: 10px;
-   box-shadow: 0 0 0 3px grey, 2px 1px 6px 3px rgba(10, 10, 0, 0.5);
-   font-weight: normal;
-}
-
-.form {
-
-  background-color: blue;
-
-
-}
-
-.email-signup {
-    width: 100%;
-    padding-left: 7px;
-}
-
-.signup {        
-  border:1px solid #999999;        
-  font:  normal 14px helvetica;        
-  color: #444444;      
-} 
-
-select.frecuency {
-    border: none;
-    font-style: italic;
-    background-color: transparent;
-    cursor: pointer;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: -webkit-transform .35s ease-in;
-    transition: -webkit-transform .35s ease-in;
-    border-bottom: none;
-}
-select.frecuency:focus {
-    outline: none;
-    border-bottom: 5px solid #22313F;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    -webkit-transition: -webkit-transform .35s ease-in;
-    transition: -webkit-transform .35s ease-in;
-}
-.free {
-    text-transform: uppercase;
-}
-.input-group {
-    margin: 20px auto;
-    width: 100%;
-}
-input.btn.btn-lg {
-    width: 60%;
-    height: 60px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-button.btn {
-    width: 40%;
-    height: 60px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.promise {
-    color: #999;
-}
-
 
 footer {
     margin: 50px 0;
 }
+
+.thumbnail .caption {
+  padding: 9px;
+  color: green;
+}
+
+.h4 {
+color:pink;
+}
+
